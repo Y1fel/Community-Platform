@@ -1,0 +1,7 @@
+﻿# 系统管理后端（发群用）
+
+负责：需求文档第6节起（组织/用户/字典/日志）
+技术：Java17 + SpringBoot3 + MySQL
+启动：改 application.yml 密码 → 执行 db/schema.sql → 运行 CommunityApplication
+账号：admin / 123456
+接口：POST /api/auth/login ；/api/system/**

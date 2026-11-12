@@ -1,0 +1,42 @@
+# Server credentials and local environment overrides
+.env
+.env.*
+!.env.example
+!frontend/.env.development
+!frontend/.env.production
+!untitled/.env.development
+!untitled/.env.production
+*.pem
+*.key
+*.ppk
+
+# Dependencies and generated files
+node_modules/
+dist/
+dist-ssr/
+target/
+coverage/
+*.class
+*.jar
+*.war
+*.log
+*.tsbuildinfo
+
+# Runtime data and downloaded backups
+data/
+backup/
+*.db
+*.mv.db
+*.lock.db
+*.trace.db
+*.sql.gz
+*.tar.gz
+*.zip
+下载说明.md
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp

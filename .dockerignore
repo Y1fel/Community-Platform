@@ -1,0 +1,9 @@
+.git
+.idea
+**/node_modules
+**/dist
+**/target
+**/data
+**/*.log
+Docker部署说明.md
+
